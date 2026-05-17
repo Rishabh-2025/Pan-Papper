@@ -1,16 +1,142 @@
-# React + Vite
+# Pan Paper Supplies - Luxury Corporate Gifting Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Project Overview
 
-Currently, two official plugins are available:
+Pan Paper Supplies is a modern luxury B2B corporate gifting website developed using React, Vite, Tailwind CSS, Framer Motion, Swiper JS, and React Router DOM.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+The website is designed for premium corporate gifting solutions with a luxury and clean UI experience focused on:
 
-## React Compiler
+- Corporate gifting
+- Executive gifting
+- Festive gifting
+- Employee onboarding kits
+- Premium business merchandise
+- Bulk order solutions
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+The design language follows the brand letterhead color palette and modern luxury aesthetics.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+# Tech Stack
+
+## Frontend
+
+- React JS
+- Vite
+- Tailwind CSS
+- Framer Motion
+- Swiper JS
+- React Router DOM
+- React Icons
+
+---
+
+# Main Features
+
+## Responsive Design
+
+- Fully responsive layout
+- Optimized for:
+  - Mobile devices
+  - Tablets
+  - Laptops
+  - Large screens
+
+---
+
+## Navigation System
+
+- Responsive navbar
+- Mobile drawer menu
+- Category dropdown
+- URL-based category filtering
+- React Router based page navigation
+
+---
+
+## Home Page Sections
+
+### Hero Section
+
+- Luxury corporate gifting banner
+- CTA buttons
+- Product showcase
+- Premium typography
+
+### Brand Trust Strip
+
+- Bulk orders
+- PAN India delivery
+- Premium packaging
+- Corporate branding
+
+### Featured Categories
+
+- Interactive category grid
+- Hover effects
+- Navigation to filtered category page
+
+### Best Seller Section
+
+- Swiper carousel
+- Dynamic products from product data
+- Product navigation support
+
+### About Section
+
+- Brand overview
+- Corporate identity
+- Premium presentation
+
+### Footer
+
+- Navigation links
+- Contact information
+- Business details
+
+---
+
+# Category Page Features
+
+## Dynamic Product Filtering
+
+Products can be filtered by:
+
+- Category
+- Color
+- Search keywords
+
+---
+
+## Search Functionality
+
+Search products using:
+
+- Product title
+- Product description
+- Product color
+- Product tags
+
+---
+
+## Product Modal
+
+Each product includes:
+
+- Multiple product images
+- Product description
+- Color variants
+- Product details
+
+---
+
+## URL Filter System
+
+Examples:
+
+```bash
+/categories?category=executive-accessories
+
+/categories?category=corporate-bags
+
+/categories?category=premium-gift-sets
